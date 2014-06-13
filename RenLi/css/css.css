@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+*{margin:0; padding:0}
+body{font-family: "宋体"; font-size:12px;}
+	
+    .cRed{color:#cd0000;}             /* 定义文字红色 */
+	.cWhite{color:#FFF;}           /* 定义文字白色 */
+	.cGreen{color:#009900;}           /* 定义文字绿色 */
+	.cGray_ccc{color:#ccc;}        /* 定义文字浅灰色 */
+	.cGray_999{color:#999;}        /* 定义文字中灰色 */
+	.cGray_666{color:#666;}        /* 定义文字深灰色 */
+	.cBlue{color:#00F;}            /* 定义文字蓝色 */
+	.cblack{color:#000;}           /* 定义文字黑色 */
+	.cyellow{color:#FF6600;}       /* 定义文字黄色 */
+	
+/*  字体样式 */
+	.FB{font-weight:bold;}
+	.FN{ font-weight:normal;}
+	.FI{font-style:italic;}
+	
+	/* 定义盒子外补丁  */
+	.margin5{margin:5px;}
+	.margin10{margin:10px;}
+	.margin15{margin:15px;}
+	.margin20{margin:20px;}
+	.margin25{margin:25px;}
+	.margin30{margin:30px;}
+	
+	.ml10{margin-left:10px;}
+	.ml20{margin-left:20px;}
+	.ml30{margin-left:30px;}
+	
+	.mt2{ margin-top:2px}
+
+/*     浮动定义   */
+	.FL{float:left;}
+	.FR{float:right;}
+	
+/*  字体大小  */
+	.F14{font-size:14px;}
+
+a:link{ color:#276ab8; text-decoration:none;}
+a:visited{color:#276ab8; text-decoration:none;}
+a:hover{color:#cd0000; text-decoration:none;} 
+a:active{color:#cd0000; text-decoration:none;}
+
+
+
+/* table样式*/
+.customer
+  {font-family: "宋体", Arial,;width:100%;border-collapse:collapse;}
+
+.customer td
+  {font-size:12px;border:1px solid #ccc;padding:4px 7px 3px 7px; line-height:20px;}
+
+.customer th 
+  {font-size:14px;text-align:left;padding:7px;background-color:#999;color:#ffffff;line-height:20px; border:1px solid #666}
+
+.customer td.alt
+  {color:#000000;background-color:#f5f5f5;}
